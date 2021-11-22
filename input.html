@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Input</title>
+</head>
+<body>
+
+ <form>
+ 	<label>Please Enter Your Name:</label>
+ 	<input type="text" name="">&nbsp
+ 	<input type="submit" name=""><br>
+ 	<label>Please Upload Your File:</label>
+ 	<input type="file" name=""><br>
+ 	<label>Please Choose Date:</label>
+ 	<input type="date" name=""><br>
+ 	<label>Do You Want Daily Notifications?</label>
+ 	<input type="radio" name=""><br>
+ 	<!-- Data List -->
+ 	<label for="web-course">Please Choose You Desired Course:</label>
+	<input list="icourse" id="web-course" name="icourse" />
+
+ 	<datalist id="icourse">
+ 		
+ 		<option value="HTML">
+ 		<option value="CSS">
+ 		<option value="Java">
+ 	</datalist>
+
+ 	<!-- Data List end -->
+
+ 	<!-- FieldSet --->
+
+ 	<fieldset>
+ 	<legend> Choose Your Best Country</legend>
+
+ 	<label for="pakistan"> Pakistan</label>
+ 	<input type="radio" id="pk" name="country">
+ 	<label for="Turkey">Turkey</label>
+ 	<input type="radio" id="tur" name="country">
+ 	</fieldset>
+
+ 	<!-- Fieldset ends -->
+
+ 	<input type="range" name=""><br>
+</body>
+</html>
